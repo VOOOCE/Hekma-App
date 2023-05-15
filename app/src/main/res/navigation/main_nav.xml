@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/wisdom">
+
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.hammod736.om.hekma.ui.homePage.ContainerPages.AboutUs"
+        android:label="about_us"
+        tools:layout="@layout/about_us" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.hammod736.om.hekma.ui.homePage.ContainerPages.SettingsW"
+        android:label="settings"
+        tools:layout="@layout/settings" />
+    <fragment
+        android:id="@+id/wisdom"
+        android:name="com.hammod736.om.hekma.ui.homePage.ContainerPages.Wisdom"
+        android:label="حكم و عبر"
+        tools:layout="@layout/wisdom" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.hammod736.om.hekma.ui.homePage.ContainerPages.Profile"
+        android:label="profile"
+        tools:layout="@layout/profile" />
+</navigation>

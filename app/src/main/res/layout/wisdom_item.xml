@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="20dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginHorizontal="42dp"
+    android:layout_marginTop="82dp"
+    android:layout_height="match_parent"
+    android:id="@+id/wisdomCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sub_base_color"
+        android:clickable="false"
+        android:focusable="false">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background_search"
+            android:scaleType="centerCrop"
+            android:alpha="0.3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/baseColor" />
+        <com.jackandphantom.carouselrecyclerview.view.ReflectionImageView
+            android:id="@+id/reflectionImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_background"
+            android:backgroundTint="@color/baseColor"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/wisdomBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="24dp"
+            android:ellipsize="end"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/sub"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:maxLines="7"
+            android:text="‏أسعد إنسان هو : من لا ينتظر شيئاً من أحد، ولا يتوقع شيئاً من أحد، ولا يحصر تطلعاته في أحد ."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

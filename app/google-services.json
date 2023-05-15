@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287328850871",
+    "project_id": "hekma-478d7",
+    "storage_bucket": "hekma-478d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287328850871:android:f02694556298ed6fa28e32",
+        "android_client_info": {
+          "package_name": "com.hammod736.om.hekma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287328850871-i0aokerkev999u68koug6q8h6c7qm7rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLxd1ZBAFRwzM92A72PWO_e-Zg29zulJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287328850871-i0aokerkev999u68koug6q8h6c7qm7rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
